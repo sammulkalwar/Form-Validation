@@ -1,0 +1,11 @@
+span{
+    font-size: 10px;
+    color: red;
+    display: none;
+}
+.res{
+    width: 700px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+}

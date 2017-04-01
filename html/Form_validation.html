@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="../CSS/Form_validation.css">
+    </head>
+<body><form onsubmit="return pizzaOrder()">
+   <fieldset> <legend>Personal Information:</legend>
+       <p><label for="fname">First Name:</label><input type=text id="fname" class="input" placeholder="SAM"><span>Enter a name</span></p>
+    <p><label for="lname">Last Name:</label><input type=text id="lname" class="input" placeholder="MARTIN"><span>Enter Last name</span></p>
+    <p><label for="addr">Address:</label><input type=text id="addr" class="input" placeholder="1234,W Corral Ave Apt 35,Kingsville Tx 78363"><span>Enter Address</span></p>
+    <p><label for="email">Email:</label><input type=text id="email" class="input" placeholder="abc@gmail.com"><span>Enter an email id</span></p>
+    <p><label for="contact">Contact No:</label><input type=text id="contact" class="input" placeholder="+13612460341"><span>Enter a contact number</span></p>
+    </fieldset>
+    <fieldset><legend>Order Information:</legend>
+    <p><label for="Delivery">Delivery</label><select id="Delivery">
+        <option>Pick Up</option>
+        <option>Home Delivery</option>
+        </select></p>
+        
+        <p><input type="checkbox" id="topping" class="top" value="Chicken"><label for="topping">Chicken</label></p>
+         <p><input type="checkbox" id="topping1" class="top" value="Beef"><label for="topping1">Beef</label></p>
+         <p><input type="checkbox" id="topping2" class="top" value="Ham"><label for="topping2">Ham</label></p>
+         <p><input type="checkbox" id="topping3" class="top" value="Sausage"><label for="topping3">Sausage</label></p>
+        
+        </fieldset>
+    
+    
+    <input type="submit" value="Order">
+    
+    <div class="res"></div>
+    
+    </form>
+    
+    <script src="../JavaScript/Form_validation.js"></script>
+    </body>
+</html>
